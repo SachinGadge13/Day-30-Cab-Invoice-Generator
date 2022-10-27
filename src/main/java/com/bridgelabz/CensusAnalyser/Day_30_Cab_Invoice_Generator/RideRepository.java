@@ -17,7 +17,6 @@ public class RideRepository {
         if (ridesList == null) {
             this.userRides.put(userId, new ArrayList<Ride>(Arrays.asList(ride)));
         }
-
     }
 
     public Ride[] getRides(String userId) {
